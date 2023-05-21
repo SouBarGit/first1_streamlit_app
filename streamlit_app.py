@@ -13,12 +13,12 @@ streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 #streamlit.dataframe(my_fruit_list)
 
 ## adding user interactive widget:
-import pandas
-my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
+#import pandas
+#my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 # put some pick list
-streamlit.multiselect("Pick some fruites:", list(my_fruit_list.index)) #but this shows numbers, we need to pick another column as index
+#streamlit.multiselect("Pick some fruites:", list(my_fruit_list.index)) #but this shows numbers, we need to pick another column as index
 # display the table on the page
-streamlit.dataframe(my_fruit_list) 
+#streamlit.dataframe(my_fruit_list) 
 
 import pandas
 my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
